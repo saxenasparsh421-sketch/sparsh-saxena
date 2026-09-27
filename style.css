@@ -113,8 +113,9 @@ h3{font-size:1.34rem}
 @media (max-width:760px){.shell{width:min(var(--shell),calc(100% - 32px))}.site-header{padding:15px 16px}.desktop-nav{display:none}.menu-toggle{display:block}.section{padding:84px 0}.hero{padding-top:104px;padding-bottom:72px}.hero-grid{gap:34px}.hero-copy{order:1}.hero-photo-wrap{order:2;min-height:490px}.hero-photo-card{width:min(320px,76%);border-radius:28px}.photo-badge{font-size:.57rem}.badge-a{left:0;top:10%}.badge-b{right:0;bottom:12%}.hero-hook{font-size:1.13rem}.hero-lines{font-size:.84rem}.hero-subline{font-size:.83rem}.button{min-height:50px;padding:0 17px}.scroll-cue{display:none}.two-col{gap:34px}.about-stack{gap:12px}.timeline{padding-left:54px}.timeline::before{left:19px}.timeline-node{left:-54px;width:42px;height:42px;border-radius:13px;font-size:.62rem}.timeline-card{padding:22px}.elara-grid{gap:28px}.elara-visual{min-height:380px}.elara-logo-panel{width:270px;height:270px}.elara-ring.ring-a{width:350px;height:210px}.elara-ring.ring-b{width:300px;height:300px}.floating-label{font-size:.5rem}.label-one{right:0}.label-two{left:0}.label-three{left:-7px}.education-grid,.skills-grid,.interest-grid,.contact-buttons{grid-template-columns:1fr}.education-card{min-height:180px}.interest-card{grid-template-columns:64px 1fr}.interest-icon{width:56px;height:56px;border-radius:17px;font-size:1.45rem}.footer-inner{flex-direction:column;align-items:flex-start}.final-section{padding:100px 0}.final-orbit{width:520px;height:190px}.section-heading-row{margin-bottom:36px}.section-heading-row h2{font-size:2.4rem}}
 @media (max-width:480px){h1{font-size:3.1rem}.hero-photo-wrap{min-height:425px}.hero-photo-card{width:76%}.photo-grid{inset:11% 1% 9% 4%}.hero-copy .eyebrow{letter-spacing:.16em;font-size:.64rem}.mini-profile>div{min-width:125px}.education-badge{text-align:left}.elara-title-row h2{font-size:2.5rem}.contact-shell h2{font-size:2.6rem}.app-button small{max-width:210px}.site-footer{font-size:.68rem}}
 @media (min-width: 769px) {
-  .contact-buttons .blog-button {
+  .contact-buttons > .app-button:last-child {
     grid-column: 1 / -1;
+    width: min(100%, 380px);
     justify-self: center;
   }
 }
